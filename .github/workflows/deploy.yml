@@ -1,6 +1,11 @@
 name: Vercel Deployment
 on:
   push:
-    branch: [main]
+    branches: [main]
 jobs:
-    
+    Build:
+      runs-on: ubuntu-latest
+      defaults:
+        run:
+           working-directory: frontend
+      
