@@ -1,0 +1,6 @@
+name: Vercel Deployment
+on:
+  push:
+    branch: [main]
+jobs:
+    
